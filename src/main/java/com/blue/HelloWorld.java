@@ -1,3 +1,7 @@
+package com.blue;
+
+import java.util.ArrayList;
+
 public class HelloWorld {
     // 归并排序主函数
     public static void mergeSort(int[] arr, int left, int right) {
@@ -86,6 +90,7 @@ public class HelloWorld {
         
         
         // 保留原有的WorkBarrie输出
+        ArrayList<WorkBarrie> as = new ArrayList<>();
         System.out.println("\nWorkBarrie枚举值：");
         for (WorkBarrie workBarrie : WorkBarrie.values()) {
             System.out.println(workBarrie); 
